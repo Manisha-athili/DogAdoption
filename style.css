@@ -1,0 +1,104 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    /* box-sizing: border-box; */
+    overflow-x:hidden;
+}
+.container{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.nav{
+    text-align: right;
+    box-sizing: border-box;
+    background-color: rgb(51, 14, 99);
+    border-radius: 5px;
+    width: 100vw;
+    padding: 5px;
+}
+ul{
+    margin: 0;
+}
+li{
+    color: rgb(0, 0, 0);
+    list-style-type: none;
+    display: inline-block;
+  
+}
+.btn1{
+    padding: 12px 25px;
+    margin-right: 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: rgb(19, 23, 87);
+    color: aliceblue;
+    opacity: 0.7;
+}
+.btn1:hover{
+    opacity: 1;
+}
+.icon{
+    padding: 0 5px;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    /* padding-top: 20px; */
+}
+
+.card{
+    width: 320px;
+    /* height: 430px; */
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(22, 22, 84);
+    box-sizing: border-box;
+    display: inline-block;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px whitesmoke ;
+}
+img{
+    width: 318px;;
+    height: 210px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 0 0;
+}
+span{
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    padding: 0 10px 0 80px;
+    color: rgb(255, 255, 255);
+}
+p{
+    padding: 5px;
+    
+}
+.anchor{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.center{
+    text-align: center;
+}
+a button{
+    margin: 0 0 0px 100px;
+}
+.adopt{
+    color: rgb(0, 0, 0);
+}
+.btn{
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(42, 125, 35);
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background-color: rgb(27, 198, 47);
+    
+}
